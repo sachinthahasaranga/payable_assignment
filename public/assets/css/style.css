@@ -1,0 +1,143 @@
+/* General Page Styling */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+/* .container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+} */
+
+/* Table Styling */
+.table {
+    background-color: #ffffff;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table tbody td {
+    vertical-align: middle;
+}
+
+/* Buttons */
+.btn {
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+/* Responsive - Mobile View */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    /* Keep the table layout */
+    .table thead {
+        display: table-header-group;
+    }
+
+    .table tbody td {
+        display: table-cell;
+        text-align: center;
+        padding-left: 0;
+        border: 1px solid #dee2e6;
+    }
+
+    .table tbody td::before {
+        content: none;
+    }
+
+    #searchButton, #search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+/* Container */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input, 
+form textarea {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Buttons */
+.btn {
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+/* Flash Messages */
+.alert {
+    margin-top: 20px;
+}
+
+/* Responsive - Mobile View */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    form input,
+    form textarea {
+        font-size: 14px;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
